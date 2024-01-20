@@ -65,7 +65,7 @@ This client is in active development and not all parameters are enabled as of no
 ### Read From File
 
 ```csharp
-var client = new OcrSpaceClient("K88461247188957");
+var client = new OcrSpaceClient("<your-api-key-here>");
 var result = await client.ReadFromFile("/Images/SampleImage.png");
 ```
 
